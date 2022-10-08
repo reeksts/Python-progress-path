@@ -1,4 +1,4 @@
-""" The factory class """
+""" The chair factory class """
 
 from small_chair import SmallChair
 from medium_chair import MediumChair

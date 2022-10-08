@@ -1,13 +1,13 @@
-""" Class of large chair """
+""" Class of table chair """
 
-from interface_chair import IChair
+from interface_table import ITable
 
 
-class LargeChair(IChair):
-    """ The LargeChair concrete class that implements the IChair interface """
+class SmallTable(ITable):
+    """ The Small Table concrete class that implements the ITable interface """
 
     def __init__(self):
-        self._height = 60
+        self._height = 80
         self._width = 60
         self._depth = 60
 

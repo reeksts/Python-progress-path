@@ -1,15 +1,15 @@
-""" Class of large chair """
+""" Class of small chair """
 
 from interface_chair import IChair
 
 
-class LargeChair(IChair):
-    """ The LargeChair concrete class that implements the IChair interface """
+class SmallChair(IChair):
+    """ The Small Chair concrete class that implements the IChair interface """
 
     def __init__(self):
-        self._height = 60
-        self._width = 60
-        self._depth = 60
+        self._height = 40
+        self._width = 40
+        self._depth = 40
 
     def get_dimensions(self):
         dimensions = {
