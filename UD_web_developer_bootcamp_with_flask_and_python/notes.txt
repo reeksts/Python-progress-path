@@ -1,0 +1,11 @@
+Lectures to return back to:
+- 35: Type hinting
+- 36: Imports
+- 37: Relative imports
+- 38: Errors
+- 39: Custom Errors
+- 40: First-class functions
+- 41: Simple decorators in Python
+- 42: The @ syntax for decorators
+- 43: Decorating functions with parameters
+- 44: Decorators with parameters
