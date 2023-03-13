@@ -1,10 +1,185 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Part 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-left">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="nav-right">
+          <a href="#">Sign In</a>
+          <a href="#">Sign Up</a>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="hero-text">
+          <h1>My Portfolio</h1>
+          <p>Check out some of my work!</p>
+        </div>
+      </div>
+    </header>
 
+    <main>
+      <section class="section-a">
+        <div class="section-header">
+          <h2>Recent Projects</h2>
+          <a href="#">View All</a>
+        </div>
+        <div class="project-list">
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://via.placeholder.com/350x150.png"
+                alt="Project 1"
+              />
+            </div>
+            <div class="project-description">
+              <h3>Project 1</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                vehicula sapien eget congue vehicula. Nulla facilisi. Etiam
+                interdum purus eu sagittis eleifend.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://via.placeholder.com/350x150.png"
+                alt="Project 2"
+              />
+            </div>
+            <div class="project-description">
+              <h3>Project 2</h3>
+              <p>
+                Sed feugiat sapien eget lectus tincidunt rhoncus. Ut vel
+                laoreet ipsum. Donec aliquet, elit ut molestie sodales, dolor
+                lacus ultricies odio, vitae tincidunt enim elit sit amet elit.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://via.placeholder.com/350x150.png"
+                alt="Project 3"
+              />
+            </div>
+            <div class="project-description">
+              <h3>Project 3</h3>
+              <p>
+                Sed non mauris vitae erat consequat auctor eu in elit. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra,
+                per inceptos himenaeos.
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-me">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-me-content">
+          <img src="images/about-me.jpg" alt="Picture of me" class="about-me-image">
+          <p>Hi there! My name is John Doe and I'm a software engineer based in New York City. I have over 5 years of experience in the industry and have worked on a wide range of projects, from mobile apps to web applications.</p>
+          <p>In my free time, I enjoy hiking, reading, and exploring new restaurants in the city. I'm also a big fan of technology and am always tinkering with new gadgets and software.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="project-card-container">
+          <div class="project-card">
+            <img src="images/project-1.jpg" alt="Project 1" class="project-image">
+            <div class="project-card-content">
+              <h3>Project 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu dui sed nulla finibus consectetur eu eget lacus.</p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="images/project-2.jpg" alt="Project 2" class="project-image">
+            <div class="project-card-content">
+              <h3>Project 2</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu dui sed nulla finibus consectetur eu eget lacus.</p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="images/project-3.jpg" alt="Project 3" class="project-image">
+            <div class="project-card-content">
+              <h3>Project 3</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu dui sed nulla finibus consectetur eu eget lacus.</p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-me">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form action="#" method="post" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h4>About Me</h4>
+                    <p>Hi, I'm John, a web developer with over 5 years of experience. I specialize in front-end development, but I'm also comfortable with back-end technologies such as Node.js and Ruby on Rails. If you're interested in working together, feel free to get in touch!</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h4>Latest Posts</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">How to Use CSS Grid for Layout</a></li>
+                        <li><a href="#">10 Tips for Writing Clean Code</a></li>
+                        <li><a href="#">Why Accessibility is Important for Web Development</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h4>Get in Touch</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-map-marker"></i> 123 Main Street, Anytown USA</li>
+                        <li><i class="fa fa-phone"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope"></i> john@example.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+  </main>
 </body>
+
 </html>
